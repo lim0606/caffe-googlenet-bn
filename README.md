@@ -14,8 +14,7 @@ Notes:
 
 The uploaded caffemodel is the snapshot of 1,200,000 iteration (30 epochs) using solver_stepsize_6400.prototxt
 
-The uploaded model achieves a top-1 accuracy 71.64% (28.36% error) and a top-5 accuracy 90.80% (9.20% error) on the validation set, using a single random crop.
-
+The uploaded model achieves a top-1 accuracy 71.64% (28.36% error) and a top-5 accuracy 90.83% (9.17% error) on the validation set, using a single random crop.
 
 # Refs
 [1] http://arxiv.org/abs/1409.4842
