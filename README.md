@@ -16,6 +16,8 @@ The uploaded caffemodel is the snapshot of 1,200,000 iteration (30 epochs) using
 
 The uploaded model achieves a top-1 accuracy 71.64% (28.36% error) and a top-5 accuracy 90.83% (9.17% error) on the validation set, using a single random crop.
 
+Thank John Lee for helping me training this model. 
+
 # Refs
 [1] http://arxiv.org/abs/1409.4842
 
