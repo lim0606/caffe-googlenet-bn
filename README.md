@@ -13,6 +13,8 @@ Notes:
 - the official batch normalization layer is used and the usage of it is adopted from https://github.com/KaimingHe/deep-residual-networks.
 - use [test_bn.cpp](https://github.com/lim0606/caffe/blob/master/tools/test_bn.cpp) and [predict_bn.cpp](https://github.com/lim0606/caffe/blob/master/tools/predict_bn.cpp) for inference. 
 - use a mini-batch of 64 on 2 GPUs, i.e. 32 per GPU
+- use ILSVRC2015 labels, instead of 12' label.
+- Data (images) are resized with 256 x 256 [convert_imageset.cpp](https://github.com/lim0606/caffe/blob/master/tools/convert_imageset.cpp).
 
 The uploaded caffemodel is the snapshot of 1,200,000 iteration (30 epochs) using solver_stepsize_6400.prototxt
 
@@ -25,6 +27,7 @@ Thank John Lee for helping me training this model.
 
 1. Real-time data shuffling is important
 2. Data augmentation during training should improve the accuracy.
+3. Change interpolation method (default is bilinear) of opencv to bicubic when you convert image will give you minor improvement.   
 
 # To-do
 
