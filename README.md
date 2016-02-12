@@ -1,4 +1,5 @@
 # caffe-googlenet-bn
+This is old version (running on old versions of caffe) built on Jul 31, 2015
 
 This model is a re-implementation of [Batch Normalization](http://arxiv.org/abs/1502.03167) publication, and the model is trained with [a customized caffe-dev](https://github.com/lim0606/caffe-dev). 
 
