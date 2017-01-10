@@ -3099,7 +3099,7 @@ layer {
     }
   }
 }
-layers {
+layer {
   bottom: "loss3/classifier"
   top: "prob"
   name: "prob"
